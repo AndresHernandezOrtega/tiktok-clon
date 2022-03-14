@@ -1,0 +1,29 @@
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+
+}
+
+.playerButton{
+    all: unset;
+    background-color: transparent;
+    width: var(--play-button-size,64px);
+    height: var(--play-button-size,64px);
+    background-image: url("https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/player-play-29dbf3a9569e52354bc2f980931a6329.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: ease 200ms;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: block;
+
+}
+
+.btn_hidden{
+    opacity: 0;
+}

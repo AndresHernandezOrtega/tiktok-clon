@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("assets/fonts/Proxima-Nova-Regular.woff2")format("woff2");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  font-family: "Proxima Nova", Tahoma, PingFangSC, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+  
